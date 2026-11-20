@@ -19,9 +19,9 @@ import uk.gov.hmrc.ui.pages.BasePage
 
 object HomePage extends BasePage {
 
-  override def pageUrl: String = "http://localhost:20113/pay-as-you-earn-expenses-benefits-frontend"
+  override def pageUrl: String = "http://localhost:20113/paye-expenses-and-benefits"
 
-  def pageUrlNoVendor: String = "http://localhost:20113/pay-as-you-earn-expenses-benefits-frontend"
+  def pageUrlNoVendor: String = "http://localhost:20113/paye-expenses-and-benefits"
 
   override def pageTitle: String =
     "pay-as-you-earn-expenses-benefits-frontend - pay-as-you-earn-expenses-benefits-frontend - GOV.UK"
