@@ -37,7 +37,7 @@ class e2eSpec
     with Browser
     with ScreenshotOnFailure {
 
-  Feature("Pay-as-you-earn-expenses-benefits End to End Journeys") {
+  Feature("paye-expenses-and-benefits End to End Journeys") {
 
     Scenario(
       "Login into PAYE-EXB as Agent",
