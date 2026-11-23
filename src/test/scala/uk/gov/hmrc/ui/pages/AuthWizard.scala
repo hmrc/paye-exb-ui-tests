@@ -54,7 +54,7 @@ object AuthWizard extends BasePage {
         s"http://localhost:9949/auth-login-stub/gg-sign-in?continue=http://localhost:20113/paye-expenses-and-benefits"
       )
     ) s"http://localhost:20113/paye-expenses-and-benefits"
-    else s"/pay-as-you-earn-expenses-benefits-frontend"
+    else s"/paye-expenses-and-benefits"
 
   def fillInputs(userType: UserTypes): this.type = {
     userType match {
